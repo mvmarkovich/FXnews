@@ -1,0 +1,41 @@
+block config
+    include ./include/config.jade
+
+include ./mixins/mixins.jade
+doctype
+html(lang="en" dir="ltr")
+    head
+        include ./include/header.jade
+        block title
+    body
+        header.header
+            .header__container
+                a.header__logo(href="#!")
+
+                nav.header__nav
+                    ul.header__nav-list
+                        li.header__nav-item
+                            a.header__nav-link(href="#!") News
+                        li.header__nav-item
+                            a.header__nav-link(href="#!") Economic
+                        li.header__nav-item
+                            a.header__nav-link(href="#!") Crypto tips
+                        li.header__nav-item
+                            a.header__nav-link(href="#!") Forex tips
+                        li.header__nav-item
+                            a.header__nav-link(href="#!") Investing
+
+                .header__panel
+                    button.header__btn-search.btn.btn--light.btn--search
+
+                    button.header__burger.btn.btn--light.btn--burger
+
+                .header__search
+                    form.header__search-form(action="#" method="get")
+                        button.header__search-submit.btn.btn--light.btn--search(type="submit")
+                        input.header__search-input(type="text" name="search")
+                        button.header__search-close.btn.btn--light.btn--cross
+
+        .mobile-menu-cover
+        block content
+    include ./include/footer.jade

@@ -1,0 +1,155 @@
+/* base.scss (START) */
+
+@import '../config';
+* {
+	padding: 0;
+	margin: 0;
+}
+body, html {
+	width: 100%;
+	position: relative;
+	font-size: 10px;
+	line-height: 1rem;
+	letter-spacing: .1px;
+	margin: 0;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 300;
+	color: #000000;
+	background-color: #EEEEEE;
+}
+
+body{
+	overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1em;
+	font-weight: lighter;
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+}
+
+h1 {font-size: 5rem; line-height: 5.9rem; font-weight: 700;}
+h2 {font-size: 5rem; line-height: 5.9rem; font-weight: 700;}
+h3 {font-size: 2rem; line-height: 3rem; font-weight: 700;}
+h4 {font-size: 2rem; letter-spacing: -0.2px;}
+h5 {font-size: 2rem; font-weight: 300;}
+h6 {font-size: 1rem; font-weight: 300;}
+
+
+.row {
+  	display: flex;
+}
+
+
+.transparent-background {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	position: fixed;
+	background: rgba(0,0,0,.6);
+	transition: .2s;
+	opacity: 0;
+	z-index: -99;
+	visibility: hidden;
+	left: 0;
+}
+
+p {
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 1rem;
+	margin-bottom: 0.4rem;
+	color: #000;
+}
+
+img {
+	border: 0;
+	vertical-align: top;
+	box-sizing: border-box;
+}
+
+blockquote {
+	background-color: #EEEEEE;
+	padding: 56px 64px 32px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	margin: 35px 0;
+	p{
+		font-weight: 500;
+		font-size: 1.7rem;
+		line-height: 3.2rem;
+	}
+	.author{
+		align-items: center;
+		.author_name{
+			font-size: 1.7rem;
+			line-height: 2.4rem;
+			color: #FF5722;
+			font-weight: 600;
+			text-decoration: none;
+		}
+	}
+	.author_avatar{
+		min-width: 64px;
+		max-width: 64px;
+		height: 64px;
+		img{
+			min-width: 64px;
+			max-width: 64px;
+			height: 64px;
+		}
+	}
+}
+
+.overflow-hidden{
+	overflow: hidden;
+}
+
+
+div {vertical-align: top;}
+
+ul, ol {
+	list-style: none;
+	padding: 0;
+	margin: 0
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+:focus {
+	outline: 1px solid transparent;
+}
+
+a:link,
+a:visited,
+a:active {
+	transition: $transition;
+	cursor: pointer;
+	&:hover {
+
+	}
+
+	&:focus {
+		outline: 1px transparent;
+		outline-color: transparent;
+		outline-style: none;
+	}
+
+}
+
+a[href^="mailto:"] {
+    background: url('') no-repeat center right;
+}
+
+a[href$=".pdf"] {
+    background: url('') no-repeat center right;
+}
+
+/* base.scss (END) */
