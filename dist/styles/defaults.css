@@ -340,24 +340,6 @@ a[href$=".pdf"] {
 	background: transparent;
 }
 
-.input__elem,
-.input__select,
-input {
-	font-family: "Work Sans", sans-serif;
-	font-size: .8125rem;
-	font-weight: 500;
-	line-height: 1.9;
-
-	width: 100%; 
-	min-height: 40px;
-	padding: 0 1rem;
-
-	border: 1px solid #cfd8dc;
-	-webkit-border-radius: 2px;
-	        border-radius: 2px;
-	outline: 0;
-}
-
 .humble {
 	font-size: 1.6rem;
 	font-weight: 500;
