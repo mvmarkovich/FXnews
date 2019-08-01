@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 	-webkit-margin-after: 0;
 }
 
-h1 {font-size: 3.6rem; line-height: 5.6rem; font-weight: 700;}
+h1 {font-size: 3.6rem; line-height: 4.4rem; font-weight: 700;}
 h2 {font-size: 3.6rem; line-height: 5.6rem; font-weight: 700;}
 h3 {font-size: 2rem; line-height: 3rem; font-weight: 700;}
 h4 {font-size: 2rem; letter-spacing: -0.2px;}
@@ -130,7 +130,6 @@ ul, ol {
 a:link,
 a:visited,
 a:active {
-	transition: $transition;
 	cursor: pointer;
 	&:hover {
 

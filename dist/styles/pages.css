@@ -104,19 +104,19 @@ input {
 		font-size: 2.2rem;
 		line-height: 2.8rem;
 	}
-	.article p {
+	.article__content p {
 		font-size: 1.4rem;
 		line-height: 2.4rem;
 
 		margin-bottom: 2.5rem;
 	}
-	.article h2 {
+	.article__content h2 {
 		font-size: 2.2rem;
 		line-height: 2.8rem;
 
 		margin-bottom: 2.3rem;
 	}
-	.article ul li {
+	.article__content ul li {
 		font-size: 1.4rem;
 		line-height: 2.4rem;
 	}

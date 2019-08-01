@@ -48,7 +48,7 @@ h6 {
 h1 {
 	font-size: 3.6rem;
 	font-weight: 700; 
-	line-height: 5.6rem;
+	line-height: 4.4rem;
 }
 
 h2 {
@@ -197,9 +197,7 @@ ol {
 a:link,
 a:visited,
 a:active {
-	cursor: pointer; 
-	-webkit-transition: all .15s cubic-bezier(0, .01, 1, .28);
-	        transition: all .15s cubic-bezier(0, .01, 1, .28);
+	cursor: pointer;
 }
 a:link:focus,
 a:visited:focus,
@@ -377,7 +375,25 @@ a[href$=".pdf"] {
 	margin-right: 0;
 }
 
-.btn--hash-tag {
+.article__panel .btn--hash-tag {
+	color: #fff;
+}
+
+.article > img,
+.article__main-img,
+.article__main-img-wrapper img,
+.article__related-img,
+.aside-story__img,
+.event__main-img,
+.img,
+.partners__img,
+img:not([class]) {
+	display: block;
+
+	max-width: 100%;
+}
+
+.article__panel .btn--hash-tag {
 	font-size: 1.3rem;
 	font-weight: 500;
 	line-height: 3.2rem;
@@ -395,22 +411,36 @@ a[href$=".pdf"] {
 	background: #ff5722;
 }
 
-.article__panel .btn--hash-tag {
-	color: #fff;
+.article__panel .btn--hash-tag:hover {
+	color: #fff; 
+	background-color: #de4d20;
 }
 
-.article > img,
-.article__main-img,
-.article__main-img-wrapper img,
-.article__related-img,
-.aside-story__img,
-.event__main-img,
-.img,
-.partners__img,
-img:not([class]) {
-	display: block;
+.article__panel .btn--hash-tag:active {
+	color: #fff; 
+	background-color: #c7431a;
+}
 
-	max-width: 100%;
+.article .categories-story_link:hover,
+.article__content a:hover,
+.article_related .article_related-link:hover,
+.categories-story_link:hover,
+.author_name:hover,
+.categories-story_item.background-huge .categories-story_title:hover,
+.categories-story_item.background-big .categories-story_title:hover,
+.top-story__link:hover {
+	color: #ff5722;
+}
+
+.article .categories-story_link:active,
+.article__content a:active,
+.article_related .article_related-link:active,
+.categories-story_link:active,
+.author_name:active,
+.categories-story_item.background-huge .categories-story_title:active,
+.categories-story_item.background-big .categories-story_title:active,
+.top-story__link:active {
+	color: #c7431a;
 }
 
 /* common.scss (END) */

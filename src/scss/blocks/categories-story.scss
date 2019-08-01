@@ -1,5 +1,5 @@
 .categories-story{
-  margin-top: 60px;
+  margin-top: 20px;
   &_list{
     display: flex;
     justify-content: space-between;
@@ -26,9 +26,6 @@
       .categories-story_name{
         color: #fff;
       }
-      .categories-story_title{
-        color: #fff;
-      }
       .categories-story_link{
         color: #fff;
       }
@@ -39,9 +36,6 @@
 
       width: 66%;
       .categories-story_name{
-        color: #fff;
-      }
-      .categories-story_title{
         color: #fff;
       }
       .categories-story_link{
@@ -81,7 +75,6 @@
     border-top: 1px solid #E6E6E6;
     &_name{
       width: 75px;
-      color: #99a5ab;
     }
     &_info{
       display: flex;
