@@ -4,22 +4,22 @@
     text-decoration: none;
   }
   p{
-    font-size: 1.8rem;
-    line-height: 3.2rem;
+    font-size: 1.6rem;
+    line-height: 2.8rem;
     margin-bottom: 3.3rem;
   }
   h2{
-    font-size: 2.7rem;
-    line-height: 4rem;
-    margin-bottom: 2.3rem;
+    font-size: 2.3rem;
+    line-height: 3.6rem;
+    margin-bottom: 2rem;
   }
   ul{
     list-style-type: disc;
     margin-left: 20px;
     li{
       color: #FF5722;
-      font-size: 1.8rem;
-      line-height: 3.2rem;
+      font-size: 1.6rem;
+      line-height: 2.8rem;
       margin-bottom: 2rem;
       padding-left: 1.5rem;
       &:last-child{
@@ -46,9 +46,9 @@
   &__header{
     padding: 22px 30px 40px;
     .article__descr{
-      font-size: 2.6rem;
+      font-size: 1.8rem;
       margin-top: 25px;
-      line-height: 4.4rem;
+      line-height: 3.2rem;
       margin-bottom: 0;
     }
     .author_name{
@@ -92,13 +92,13 @@
     &-title{
       font-weight: 700;
       color: #000;
-      font-size: 2rem;
-      line-height: 3rem;
+      font-size: 1.8rem;
+      line-height: 2.6rem;
     }
     &-img{
       &-wrapper{
-        min-width: 264px;
-        height: 184px;
+        min-width: 200px;
+        height: auto;
         display: block;
       }
     }

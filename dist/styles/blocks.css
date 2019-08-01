@@ -5,17 +5,17 @@
 }
 
 .article p {
-	font-size: 1.8rem;
-	line-height: 3.2rem;
+	font-size: 1.6rem;
+	line-height: 2.8rem;
 
 	margin-bottom: 3.3rem;
 }
 
 .article h2 {
-	font-size: 2.7rem;
-	line-height: 4rem;
+	font-size: 2.3rem;
+	line-height: 3.6rem;
 
-	margin-bottom: 2.3rem;
+	margin-bottom: 2rem;
 }
 
 .article ul {
@@ -24,8 +24,8 @@
 	list-style-type: disc;
 }
 .article ul li {
-	font-size: 1.8rem;
-	line-height: 3.2rem;
+	font-size: 1.6rem;
+	line-height: 2.8rem;
 
 	margin-bottom: 2rem;
 	padding-left: 1.5rem; 
@@ -59,8 +59,8 @@
 	padding: 22px 30px 40px;
 }
 .article__header .article__descr {
-	font-size: 2.6rem;
-	line-height: 4.4rem;
+	font-size: 1.8rem;
+	line-height: 3.2rem;
 
 	margin-top: 25px;
 	margin-bottom: 0;
@@ -128,17 +128,17 @@
 	text-decoration: none;
 }
 .article_related-title {
-	font-size: 2rem;
+	font-size: 1.8rem;
 	font-weight: 700;
-	line-height: 3rem; 
+	line-height: 2.6rem; 
 
 	color: #000;
 }
 .article_related-img-wrapper {
 	display: block; 
 
-	min-width: 264px;
-	height: 184px;
+	min-width: 200px;
+	height: auto;
 }
 
 .article .categories-story {
@@ -333,7 +333,7 @@
 	color: #000;
 }
 .categories-story_name {
-	font-size: 2rem;
+	font-size: 1.8rem;
 	font-weight: 700;
 	line-height: 2.2rem;
 
@@ -343,9 +343,9 @@
 	color: #e8961c;
 }
 .categories-story_title {
-	font-size: 2rem;
+	font-size: 1.8rem;
 	font-weight: 700;
-	line-height: 3rem;
+	line-height: 2.6rem;
 
 	margin-top: 10px;
 }
@@ -403,7 +403,7 @@
 	display: -ms-flexbox;
 	display:         flex;
 
-	max-width: 1141px;
+	max-width: 1020px;
 	margin: 0 auto;
 
 	-webkit-box-pack: justify;
@@ -415,9 +415,9 @@
 	        flex-wrap: wrap;
 }
 .footer__nav-link {
-	font-size: 2rem;
+	font-size: 1.8rem;
 	font-weight: 600;
-	line-height: 2.4rem;
+	line-height: 2.2rem;
 
 	text-decoration: none; 
 
@@ -574,7 +574,7 @@
 	        justify-content: space-between;
 }
 .header__nav-link {
-	font-size: 2rem;
+	font-size: 1.8rem;
 	font-weight: 600; 
 	line-height: 2.4rem;
 
@@ -734,7 +734,7 @@
 	color: #000;
 }
 .top-story__title {
-	margin-bottom: 2.5rem;
+	margin-bottom: 2rem;
 
 	color: #000;
 }
@@ -742,21 +742,21 @@
 	color: #000;
 }
 .top-story_footer {
-	padding: 16px 48px 32px;
+	padding: 16px 30px 32px;
 }
 .top-story_descr {
-	font-size: 2.6rem;
-	line-height: 4.4rem;
+	font-size: 1.8rem;
+	line-height: 3.2rem;
 }
 
 .editors-mark {
-	font-size: 2.2rem;
+	font-size: 1.3rem;
 	font-weight: 500;
-	line-height: 4.4rem;
+	line-height: 2.4rem;
 
 	position: absolute;
-	bottom: 20px;
-	left: 20px; 
+	bottom: .8rem;
+	left: .8rem; 
 
 	display: inline-block;
 
